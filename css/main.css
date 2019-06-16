@@ -146,6 +146,17 @@ section.about-us {
 	color: #4c4c4c;
 	margin-bottom: 60px;
 }
+.w1200 .title.news{
+	font-size: 20px;
+	color:#a6b21f;
+	margin-bottom: 20px;
+}
+.recall-block-2.news .w1200{
+	max-width: 100%;
+}
+.recall-block-2.news .w1200 >.title{
+	margin-left: 14%;
+}
 
 .item--about-us {
 	min-height: 220px;
@@ -267,6 +278,22 @@ section.about-us {
 	font-size: 16px;
 	font-family: S-Regular;
 	color: #4c4c4c;
+}
+.blocks{
+	display: inline-block; 
+	margin-left:100px;
+	height: 200px;
+
+}	
+.blocks{
+	display: inline-block;
+	height: auto;
+}
+.blocks:nth-child(2){
+	border-right: 1px solid #a6b21f;
+	width: 34%;
+	margin-left: 14%;
+	padding-right: 50px;
 }
 
 .right-block input::placeholder {
@@ -1009,20 +1036,31 @@ footer {
 }
 
 @media(max-width: 425px) {
+
 	.laptophide{
 		display: inline;
 	}
 	.laptopshow{
 		display: none;
 	}
+
 	.content-text--header .title {
 		margin-bottom: 15%;
 		margin-top: 45%;
 	}
-	.wrapper-recall-block-2 .title-callback {
-		padding-bottom: 0px;
+	.recall-block-2.two-exemplar .title-callback {
+		padding-bottom: -10px;
 		height: 10px;
+		margin-left: 60%;
 		text-align: center;
+	}
+	.recall-block-2.two-exemplar .zakaz{
+		margin-left: 60%;
+
+	}
+	.recall-block-2.two-exemplar .text-collback{
+		width: 300px;
+		margin-left: 60%;
 	}
 	.wrapper-ul--products ul {
 		width: 100%;
