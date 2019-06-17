@@ -1112,24 +1112,63 @@ footer {
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 1rem 1.5rem;
-    width: 24rem;
-    border-radius: 0.5rem;
+	width: 50rem;
+	height:22rem;
+	opacity: 0.9;
+    /* border-radius: 0.5rem; */
 }
 .close-button {
-    float: right;
-    width: 1.5rem;
-    line-height: 1.5rem;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 0.25rem;
-    background-color: lightgray;
+	width: 58px;
+	height: 58px;
+	/* border-radius: 35px; */
+	margin-left: 98%;
+	margin-top: -5%;
+	/* background-size: cover; */
+	background-size: contain;
+	cursor: pointer;
+	background: url(../images/buttonclose01.png) no-repeat 50% 50%;
+	background-size: 100%;
+
 }
 .close-button:hover {
-    background-color: darkgray;
+    /* background-color: darkgray; */
 }
 .show-modal {
     opacity: 1;
     visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content .title-callback{
+	color: black;
+	text-align: center;
+	margin-right: 0;
+	font-size: 24px;
+	margin-bottom: 4%;
+	margin-top: 4%;
+	/* margin-left: 20%; */
+}
+.modal-content .right-block input{
+	border: 3px solid #a6b21f !important; 
+}
+ .form_input {
+	float: left;
+	display: block;
+	margin-left:40px;
+  }
+  
+  #form_phone {
+	margin-left: 20px; /* or space you want..*/
+  }
+  .modal-content button{
+	margin-left:40px;
+	margin-top: 4%;
+  }
+.button-clicked{
+	display: none;
+}
+#onend{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 15%;
 }

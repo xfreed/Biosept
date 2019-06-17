@@ -282,7 +282,7 @@
                 та встановлення септиків в інших містах України. <br>
                 Ми пропонуємо співпрацю з вигідними умовами офіційного дилерства.</div>
 
-            <button class="zakaz">ЗВОРОТНІЙ ЗВ’ЯЗОК</button>
+            <button class="zakaz trigger">ЗВОРОТНІЙ ЗВ’ЯЗОК</button>
         </div>
     </section>
 
@@ -346,14 +346,29 @@
 
 
 
-<!-- Modal start -->
+    <!-- Modal start -->
     <div class="modal">
         <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h1>Hello, I am a modal!</h1>
+            <div class="close-button"></div>
+            <div id="hiding">
+                <div class="title-callback">Форма зворотнього зв'язку</div>
+                <br>
+                <div class="right-block">
+                    <form id="contactForm" action="/" method="post">
+                        <input class="form_input" name="name" type="text" placeholder="Ваше ім’я" />
+                        <input class="form_input" id="form_phone" name="phone" type="text"
+                            placeholder="Номер телефону" />
+                        <button type="submit" id="btn" class="zakaz">Передзвонити</button>
+                    </form>
+                </div>
+            </div>
+            <div id="onend" class="button-clicked">
+                Заявку прийнято.<br>
+                Очікуйте дзвінка!
+            </div>
         </div>
     </div>
-<!-- Modal end -->
+    <!-- Modal end -->
 
 
     <script type="application/javascript">
