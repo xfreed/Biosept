@@ -158,12 +158,13 @@ section.about-us {
 }
 
 .recall-block-2.news .w1200 {
+margin-top: -5%;
 	max-width: 100%;
 }
 
-.recall-block-2.news .w1200>.title {
+/* .recall-block-2.news .w1200>.title {
 	margin-left: 14%;
-}
+} */
 
 .item--about-us {
 	min-height: 220px;
@@ -294,7 +295,7 @@ section.about-us {
 }
 
 .recall-block-2.news .w1200 .left-center {
-	margin-left: 22%;
+	margin-left: 48%;
 	/* left: 50%; */
 }
 
@@ -533,7 +534,7 @@ section.about-us {
 }
 
 .recall-block-2.two-exemplar .wrapper-recall-block-2 {
-	margin-right: 58%;
+	margin-right: 41%;
 }
 
 iframe {
@@ -883,6 +884,7 @@ footer {
 	.recall-block-2.two-exemplar .title-callback {
 		margin-right: 0;
 	}
+
 	.recall-block-2.two-exemplar {
 		background: url(../images/mobile-gif.jpg) no-repeat center !important;
 		background-size: cover !important;

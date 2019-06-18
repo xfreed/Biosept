@@ -25,7 +25,7 @@
 
     src: url('../fonts/SourceSansPro-Bold.eot?iefix') format('eot'),
 
-    url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+    url('../fonts/SourceSansPro-Bold.ttf') format('woff'),
 
     url('../fonts/SourceSansPro-Bold.ttf') format('truetype'),
 
@@ -44,7 +44,7 @@
 
     src: url('../fonts/SourceSansPro-Regular.eot?iefix') format('eot'),
 
-    url('../fonts/SourceSansPro-Regular.woff') format('woff'),
+    url('../fonts/SourceSansPro-Regular.ttf') format('woff'),
 
     url('../fonts/SourceSansPro-Regular.ttf') format('truetype'),
 
