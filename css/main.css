@@ -639,6 +639,10 @@ footer {
 }
 
 @media(max-width: 768px) {
+	body.active .top-menu.fixed .burger { 
+		background: url(../images/close-white-button.png) no-repeat center !important; 
+		background-size: 18px !important; 
+	}
 	.top-menu ul li a {
 		display: none;
 	}
