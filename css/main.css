@@ -1261,9 +1261,6 @@ footer {
 	background-size: 100%;
 }
 
-.close-button:hover {
-	/* background-color: darkgray; */
-}
 
 .show-modal {
 	opacity: 1;
@@ -1279,7 +1276,6 @@ footer {
 	font-size: 24px;
 	margin-bottom: 4%;
 	margin-top: 4%;
-	/* margin-left: 20%; */
 }
 
 .modal-content .right-block input {
@@ -1319,18 +1315,11 @@ footer {
 	z-index: 99; /* Make sure it does not overlap */
 	border: none; /* Remove borders */
 	outline: none; /* Remove outline */
-	/*background-color: red; /* Set a background color */
-	/*color: white; /* Text color */
 	cursor: pointer; /* Add a mouse pointer on hover */
-	/*padding: 15px; /* Some padding */
 	border-radius: 50%; /* Rounded corners */
-	/*font-size: 18px; /* Increase font size */
 	background: url(../images/arrow-01.png) no-repeat 50% 50%;
 	background-size: 50px;
 	width: 50px;
 	height: 50px;
   }
   
-  #ScrollBack:hover {
-	background-color: #555; /* Add a dark-grey background on hover */
-  }
