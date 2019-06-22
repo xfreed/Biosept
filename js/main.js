@@ -32,7 +32,7 @@ function windowOnClick(event) {
   if (event.target === modal) {
     toggleModal();
     $('#hiding').removeClass('button-clicked');
-   $('#onend').addClass('button-clicked');
+    $('#onend').addClass('button-clicked');
 
   }
 }
@@ -51,11 +51,11 @@ $('#contactForm').submit(function () {
 });
 // ScrollBack
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700 
-    && $(document).width()>500) {
+  if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700
+    && $(document).width() > 500) {
     document.getElementById("ScrollBack").style.display = "block";
   } else {
     document.getElementById("ScrollBack").style.display = "none";
@@ -68,8 +68,13 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 //More
-$( "#more" ).click(function() {
-  $("#hiddendiv").css("display" , "block");
-  $(this).css("display" , "none");
-  $('.contacts').css("margin-top","30rem");
+$("#more").click(function () {
+  $("#hiddendiv").css("display", "block");
+  $(this).css("display", "none");
+  $(".recall-block-2.news").css("height", "100%");
+  if ($(document).width() > 500)
+    $('.contacts').css("margin-top", "20rem");// 40rem mobile
+  else
+    $('.contacts').css("margin-top", "40rem");// 40rem mobile
+
 });
