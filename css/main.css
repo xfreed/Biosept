@@ -327,7 +327,7 @@ section.about-us
 {
   display: inline-block;
   margin-left: 80px;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .recall-block-2.news .w1200 .left-center
@@ -347,10 +347,9 @@ section.about-us
 
 .blocks:nth-child(3)
 {
-  display: inline-block;
+  position: absolute;
   width: 320px;
   height: auto;
-  background-color: red;
 }
 
 .right-block input::placeholder
