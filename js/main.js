@@ -67,3 +67,9 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+//More
+$( "#more" ).click(function() {
+  $("#hiddendiv").css("display" , "block");
+  $(this).css("display" , "none");
+  $('.contacts').css("margin-top","30rem");
+});
