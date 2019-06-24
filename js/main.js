@@ -11,12 +11,29 @@ $('#contactForm').submit(function () {
     success: function () {
       $('#onend').removeClass('button-clicked');
       $('#hiding').addClass('button-clicked');
+      return false;
     }
   });
-
   return false;
 });
-
+$('#mdlbtn').click(function(){
+  var _name = $('#form_name_modal').val();
+  var _phone = $('#form_phone_modal').val();
+  $.ajax({
+    url: './php/send_form_email.php',
+    type: 'POST',
+    data: {
+      name: _name,
+      phone: _phone
+    },
+    success: function () {
+      $('#onend').removeClass('button-clicked');
+      $('#hiding').addClass('button-clicked');
+      return false;
+    }
+  });
+  return false;
+});
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
@@ -65,11 +82,13 @@ var modal = document.querySelector(".modal");
 var nodes = document.querySelectorAll('.trigger');
 var trigger = nodes[0];
 var trigger1 = nodes[1];
+var trigger2 = nodes[2];
 var closeButton = document.querySelector(".close-button");
 
 
 trigger.addEventListener("click", toggleModal);
 trigger1.addEventListener("click", toggleModal);
+trigger2.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 //

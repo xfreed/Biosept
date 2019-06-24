@@ -140,10 +140,10 @@
                 <div class="text-collback">Наш консультант з радістю <br>Вам допоможе!</div>
             </div>
             <div class="right-block">
-                <form action="/" method="post">
-                    <input name="name" type="text" placeholder="Ваше ім’я">
-                    <input name="phone" type="text" placeholder="Номер телефону">
-                    <button type="submit" class="zakaz">ЗАМОВИТИ ДЗВІНОК</button>
+                <form id="contactForm" action="" method="post">
+                    <input name="name" id="form_name" type="text" placeholder="Ваше ім’я">
+                    <input name="phone" id="form_phone" type="text" placeholder="Номер телефону">
+                    <button type="submit" class="zakaz trigger">ЗАМОВИТИ ДЗВІНОК</button>
                 </form>
             </div>
         </div>
@@ -370,11 +370,11 @@
                 <br>
                 <div class="right-block">
                     <!--   -->
-                    <form id="contactForm" action="./php/send_form_email.php" method="post" >
-                        <input class="form_input" id="form_name" name="name" type="text" placeholder="Ваше ім’я" />
-                        <input class="form_input" id="form_phone" name="phone" type="text"
+                    <form id="contactFormModal">
+                        <input class="form_input" id="form_name_modal" name="name" type="text" placeholder="Ваше ім’я" />
+                        <input class="form_input" id="form_phone_modal" name="phone" type="text"
                             placeholder="Номер телефону" />
-                        <button type="submit" name="submit" id="btn" class="zakaz" value="Submit">Передзвонити</button>
+                            <button id="mdlbtn" type="submit" class="zakaz trigger">Передзвонити</button>
                     </form>
                 </div>
             </div>
