@@ -465,12 +465,18 @@ section.about-us {
 	top: 38%;
 	width: 380px;
 	right: -1%;
+	font-family: S-Regular;
+	line-height: normal;
+	color: #fff;
+	font-size: 18px;
 }
 
 .fly-item.item5 {
-	top: 70%;
+	margin-right: 50px;
+	margin-top: -15rem;
+	/* top: 70%; */
 	width: 380px;
-	right: 2%;
+	right: 10%;
 }
 
 .fly-item.item5 .title-fly {
@@ -495,10 +501,17 @@ section.about-us {
 }
 
 .gellery {
+	background: url(../images/gallery-background.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
-
+.wrapper-gellery .title{
+	color:#fff;
+}
 .gellery .title img {
 	width: 120px;
 	height: 70px;
@@ -1181,6 +1194,10 @@ footer {
 	}
 	#ScrollBack {
 		display: none;
+	}
+	#ua,#ru {
+		padding: 20px;
+		font-size: 40px;
 	}
 }
 
