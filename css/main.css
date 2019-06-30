@@ -254,7 +254,9 @@ section.about-us {
 	color: #fff;
 	margin-right: 260px;
 }
-
+.wrapper-septic .title-callback {
+	color: #4c4c4c;
+}
 .wrapper-callback {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -417,7 +419,7 @@ section.about-us {
 
 .septic {
 	min-height: 500px;
-	background: #a6b21f;
+	background: #fff;
 	padding: 40px 0 150px;
 }
 
@@ -434,7 +436,7 @@ section.about-us {
 }
 
 .fly-item.item1 {
-	left: 15%;
+	/* left: 15%; */
 	top: 25%;
 }
 
@@ -442,37 +444,37 @@ section.about-us {
 .fly-item.item3 {
 	left: 1%;
 	width: 370px;
-	text-align: right;
+	text-align:left;
 	top: 60%;
 }
 
 .fly-item.item2 .title-fly {
-	left: 9%;
+	/* left: 9%; */
 	text-align: left;
 }
 
 .fly-item.item3 {
-	left: 15%;
+	/* left: 15%; */
 	width: 327px;
 	top: 91%;
 }
 
 .fly-item.item3 .title-fly {
-	padding-left: 85px;
+	/* padding-left: 85px; */
 }
 
 .fly-item.item4 {
 	top: 38%;
 	width: 380px;
-	right: -1%;
+	right: -2%;
 	font-family: S-Regular;
 	line-height: normal;
-	color: #fff;
+	color: #4c4c4c;
 	font-size: 18px;
 }
 
 .fly-item.item5 {
-	margin-right: 50px;
+	margin-right: 10px;
 	margin-top: -15rem;
 	/* top: 70%; */
 	width: 380px;
@@ -491,23 +493,21 @@ section.about-us {
 
 .title-fly {
 	margin-bottom: 20px;
-	color: #4c4c4c;
+	/* color: #4c4c4c; */
 	font-size: 19px;
 }
 
 .text-fly {
-	color: #fff;
+	color: #4c4c4c;
 	font-size: 18px;
 }
 
 .gellery {
-	background: url(../images/gallery-background.jpg) no-repeat center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: url(../images/gallery-background.jpg) no-repeat center;
+	background-size:  100% 80%;
 	margin-top: 70px;
 	margin-bottom: 70px;
+
 }
 .wrapper-gellery .title{
 	color:#fff;
@@ -526,9 +526,11 @@ section.about-us {
 }
 
 .wrapper-images-gellery img {
-	width: 260px;
-	height: 260px;
-	display: inline-block;
+	width: 500px;
+	height: 380px;
+	/* display: inline-block; */
+	/* margin-bottom: 50px; */
+	/* margin-top: -70px; */
 }
 
 .wrapper-images-gellery img:not(:last-child) {
@@ -642,6 +644,9 @@ footer {
 }
 
 @media (max-width:768px) {
+	.fly-item.item5{
+		margin-top: 2rem;
+	}
 	body.active .top-menu.fixed .burger {
 		background: url(../images/close-white-button.png) no-repeat center!important;
 		background-size: 18px!important;
@@ -808,9 +813,11 @@ footer {
 		text-align: center;
 		width: 190px;
 		font-family: S-Bold;
+		color:#4c4c4c;
 		margin: 0 auto;
-		border-bottom: 2px solid #fff;
+		border-bottom: 2px solid #4c4c4c;
 		padding-bottom: 5px;
+		margin-bottom: 20px;
 	}
 	.gellery {
 		padding-top: 5rem;
@@ -1038,6 +1045,9 @@ footer {
 }
 
 @media (max-width:425px) {
+	.gellery{
+		background: none;
+	}
 	.title-callback {
 		font-size: 20px;
 	}
