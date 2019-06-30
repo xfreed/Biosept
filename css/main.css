@@ -426,7 +426,8 @@ section.about-us {
 .wrapper-septic {
 	min-height: 800px;
 	background: url(../images/septic.png) no-repeat center;
-	background-size: contain!important;
+	/* background-size: contain!important; */
+	background-size: 40%!important;	
 	position: relative;
 }
 
