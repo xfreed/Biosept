@@ -181,7 +181,7 @@ $(function () {
 			$('#form_name').attr('placeholder',"Ваше ім’я");
 			$('#form_phone').attr('placeholder','Номер телефону	');
 			$('#image-second-block-1').attr('src','./images/second-block-1.png')
-			$('#image2-1').attr('src','./images/2-1x.png')
+			$('#image2-1').attr('src','./images/2-1.png')
 
 		}
 	});

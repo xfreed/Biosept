@@ -256,6 +256,7 @@ section.about-us {
 }
 .wrapper-septic .title-callback {
 	color: #4c4c4c;
+	padding-top: 100px;
 }
 .wrapper-callback {
 	display: -webkit-flex;
@@ -438,15 +439,15 @@ section.about-us {
 
 .fly-item.item1 {
 	/* left: 15%; */
-	top: 25%;
+	top: 30%;
 }
 
 .fly-item.item2,
 .fly-item.item3 {
-	left: 1%;
+	/* left: 1%; */
 	width: 370px;
 	text-align:left;
-	top: 60%;
+	top: 50%;
 }
 
 .fly-item.item2 .title-fly {
@@ -457,7 +458,7 @@ section.about-us {
 .fly-item.item3 {
 	/* left: 15%; */
 	width: 327px;
-	top: 91%;
+	top: 71%;
 }
 
 .fly-item.item3 .title-fly {
@@ -465,7 +466,7 @@ section.about-us {
 }
 
 .fly-item.item4 {
-	top: 38%;
+	top: 36%;
 	width: 380px;
 	right: -2%;
 	font-family: S-Regular;
@@ -476,10 +477,10 @@ section.about-us {
 
 .fly-item.item5 {
 	margin-right: 10px;
-	margin-top: -15rem;
-	/* top: 70%; */
+	margin-top: -19.3rem;
+	/* top: 700%; */
 	width: 380px;
-	right: 10%;
+	right: 158px;
 }
 
 .fly-item.item5 .title-fly {
@@ -507,7 +508,7 @@ section.about-us {
 	background: url(../images/gallery-background.jpg) no-repeat center;
 	background-size:  100% 80%;
 	margin-top: 70px;
-	margin-bottom: 70px;
+	margin-bottom: 200px;
 
 }
 .wrapper-gellery .title{
@@ -524,10 +525,11 @@ section.about-us {
 
 .wrapper-images-gellery {
 	text-align: center;
+	margin-left: -6px
 }
 
 .wrapper-images-gellery img {
-	width: 500px;
+	width: 540px;
 	height: 380px;
 	/* display: inline-block; */
 	/* margin-bottom: 50px; */
@@ -815,7 +817,7 @@ footer {
 		width: 190px;
 		font-family: S-Bold;
 		color:#4c4c4c;
-		margin: 0 auto;
+		/* margin: 0 auto; */
 		border-bottom: 2px solid #4c4c4c;
 		padding-bottom: 5px;
 		margin-bottom: 20px;
@@ -1328,4 +1330,5 @@ footer {
 #ua,
 #ru {
 	font-size: 15px;
+	font-weight: bold;
 }
