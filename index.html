@@ -236,7 +236,7 @@
 
     <section style="display: none;" class="septic mobile" id="partners">
         <div class="wrapper-septic w1200">
-            <div class="title-callback  lang" key="why_sp1">Чому септик ST-1?</div>
+            <!-- <div class="title-callback  lang" key="why_sp1">Чому септик ST-1?</div> -->
             <div class="fly-item item1">
                 <div class="title-fly  lang" key="fl_1">НАДІЙНІСТЬ</div>
                 <div class="text-fly  lang" key="fl_1_text">Основа виготовлена з арматурного склопластику, що гарантує
@@ -274,7 +274,7 @@
 
     <section class="gellery">
         <div class="wrapper-gellery w1200">
-            <div class="title">  <span class="biosept" style="display: none;">Галерея Biosept</span></div>
+            <div class="title">  <span class="biosept" style="display: none;"></span></div> <!-- Галерея Biosept -->
             <div class="wrapper-images-gellery">
                 <img src="images/1.png" alt="">
                 <img src="images/2.png" alt="">
@@ -412,8 +412,8 @@
                 </div>
             </div>
             <div id="onend" class="button-clicked">
-                Заявку прийнято.<br>
-                Очікуйте дзвінка!
+                <text class="lang" key="call_confirmed_1">Заявку прийнято.</text><br>
+                <text class="lang" key="call_confirmed_2"></text>Очікуйте дзвінка!</text>
                 <button id="mdlbtnmobile" class="zakaz" onclick="toggleModal()">OK</button>
             </div>
         </div>
@@ -438,13 +438,16 @@
         $('.mobile-gallery').slick({
 
             //   dots: true,
-            // infinite: true,
+            infinite: true,
             // speed: 300,
             // slidesToShow: 1,
             // mobileFirst: true,
-            // adaptiveHeight: true,
+            adaptiveHeight: true,
             variableWidth: true,
-            // adaptiveHeight: true
+            adaptiveHeight: true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            // arrows : false,
         });
     });
 </script>
