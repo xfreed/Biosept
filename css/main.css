@@ -257,7 +257,7 @@ section.about-us {
 
 .wrapper-septic .title-callback {
 	color: #4c4c4c;
-	/* padding-top: 100px; */
+	padding-top: 100px;
 }
 
 .wrapper-callback {
@@ -476,7 +476,9 @@ section.about-us {
 	color: #4c4c4c;
 	font-size: 18px;
 }
-
+.fly-item.item4 .title-fly{
+color: #000;	
+}
 .fly-item.item5 {
 	margin-right: 10px;
 	margin-top: -19.3rem;
@@ -838,10 +840,10 @@ footer {
 	.wrapper-septic {
 		background-position-y: 70px;
 		background-size: 60%!important;
-		height: 340px;
+		height: 440px;
 	}
 	.wrapper-gellery .title img,
-	.wrapper-images-gellery {
+	.wrapper-images-gellery, .dsp {
 		display: none;
 	}
 	.mobile-gallery {
@@ -1023,6 +1025,7 @@ footer {
 		background: url(../images/close-menu.png) no-repeat center;
 		background-size: contain;
 	}
+	
 }
 
 @media (max-width:500px) {
@@ -1051,8 +1054,9 @@ footer {
 		width: 60px;
 	}
 	.top-menu .logo {
-		height: 40px;
+		/* height: 40px; */
 		width: 77px;
+		margin-left: 20px;
 	}
 	.left-block .title-callback {
 		font-size: 26px;
@@ -1150,7 +1154,7 @@ footer {
 	}
 	.recall-block-2.two-exemplar .title-callback {
 		padding-bottom: -10px;
-		height: 10px;
+		/* height: 10px; */
 		margin-left: 40%;
 		text-align: center;
 		font-size: 23px;
