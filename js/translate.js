@@ -172,7 +172,9 @@ $(function () {
 
 		if (lang == 'ru') {
 			$('#form_name').attr('placeholder','Ваше имя');
+			$('#form_name_modal').attr('placeholder','Ваше имя');
 			$('#form_phone').attr('placeholder','Номер телефона');
+			$('#form_phone_modal').attr('placeholder','Номер телефона');
 			$('#image-second-block-1').attr('src','./images/second-block-1-ru.png')
 			$('#image2-1').attr('src','./images/2-1-ru.png')
 			$("#prod").css("font-size","28px")
@@ -182,6 +184,8 @@ $(function () {
 		else {
 			$('#form_name').attr('placeholder',"Ваше ім’я");
 			$('#form_phone').attr('placeholder','Номер телефону	');
+			$('#form_name_modal').attr('placeholder',"Ваше ім’я");
+			$('#form_phone_modal').attr('placeholder','Номер телефону');
 			$('#image-second-block-1').attr('src','./images/second-block-1.png')
 			$('#image2-1').attr('src','./images/2-1.png')
 			$("#prod").css("font-size","30px")
