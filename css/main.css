@@ -51,11 +51,27 @@ html {
 
 .block-images--header {
 	min-height: calc(100vh - 50px);
+	/* background: url(../images/fon1.png) no-repeat 100% 27%; */
+	/* background: url(../images/fon-heder-2.jpg) no-repeat; */
+	background-size: cover;
+	position: relative;
+}
+.block-images--header.sub1{
+	min-height: calc(100vh - 50px);
 	background: url(../images/fon1.png) no-repeat 100% 27%;
 	background-size: cover;
 	position: relative;
 }
-
+.block-images--header.sub2{
+	background: url(../images/fon-heder-2.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.block-images--header.sub3{
+	background: url(../images/fon-heder-2.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
 .top-menu {
 	display: -webkit-flex;
 	display: -moz-flex;

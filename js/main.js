@@ -106,5 +106,29 @@ $("#more").click(function () {
 		$('.contacts').css("margin-top", "20rem"); // 40rem mobile
 	else
 		$('.contacts').css("margin-top", "40rem"); // 40rem mobile
+});
+$("#fn1").click(function (){
+	dropclass();
+	$("#header-image").addClass('sub1');
+	$(this).addClass('active');
+});
+$("#fn2").click(function (){
+	dropclass();
+	$("#header-image").addClass('sub2');
+	$(this).addClass('active');
 
 });
+$("#fn3").click(function (){
+	dropclass();
+	$("#header-image").addClass('sub3');
+	$(this).addClass('active');
+
+});
+function dropclass(){
+	$("#header-image").removeClass('sub1');	
+	$("#header-image").removeClass('sub2');	
+	$("#header-image").removeClass('sub3');	
+	$("#fn1").removeClass('active');	
+	$("#fn2").removeClass('active');	
+	$("#fn3").removeClass('active');	
+}
