@@ -180,7 +180,13 @@ section.about-us {
 	color: #4c4c4c;
 	margin-bottom: 60px;
 }
-
+.price{
+	color: #4c4c4c;
+	font-family: S-Regular;
+	font-size: 40px;	
+	padding-left: 16%;
+	padding-bottom: 30px;
+}
 .w1200 .title.news {
 	font-size: 20px;
 	color: #a6b21f;
@@ -343,13 +349,7 @@ section.about-us {
 	width: 320px;
 	height: auto;
 }
-.price{
-	color: #000;
-	font-family: S-Regular;
-	font-size: 40px;	
-	padding-left: 180px;
-	padding-bottom: 30px;
-}
+
 .right-block input::placeholder {
 	font-size: 16px;
 	font-family: S-Regular;
