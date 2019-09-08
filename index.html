@@ -2,11 +2,21 @@
 <html lang="ru">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145983410-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145983410-1');
+    </script>
+
     <meta charset="UTF-8">
     <title>Biosept</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/main.css">
     <!-- <script src="./js/jquery.js"></script> -->
 
@@ -14,7 +24,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="./js/slick.min.js"></script>
 
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-7927595706945968",
+            enable_page_level_ads: true
+        });
+    </script>
 
 </head>
 
@@ -38,7 +54,7 @@
             <div class="toggle-button">
                 <span id="fn1" data-image="fon1" class="active"></span>
                 <span id="fn2" data-image="fon2"></span>
-                <span  id="fn3"data-image="fon1.png" ></span>
+                <span id="fn3" data-image="fon1.png"></span>
             </div>
             <div class="w1200">
                 <div class="top-menu">
@@ -47,7 +63,8 @@
                     <ul>
                         <li><a class="active lang" key="home" href="#">Головна</a></li>
                         <li><a class="lang" key="about" href="#about-us">Про нас</a></li>
-                        <li><a class="lang" key="product" href="#product">Продукт</a></li>
+                        <li><a class="lang" key="product" href="#product">Продукція</a></li>
+                        <li><a  href="#price">Прайс</a></li>
                         <li><a class="lang" key="parners" href="#mobile-go">Партнерам</a></li>
                         <li><a class="lang" key="contact" href="#contacts">Контакти</a></li>
                     </ul>
@@ -56,7 +73,7 @@
                 <ul class="mobile-menu" style="display: none;">
                     <li><a class="active lang" key="home" href="#">Головна</a></li>
                     <li><a class="lang" key="about" href="#about-us">Про нас</a></li>
-                    <li><a class="lang" key="product" href="#product">Продукт</a></li>
+                    <li><a class="lang" key="product" href="#product">Продукція</a></li>
                     <li><a class="lang" key="parners" href="#mobile-go">Партнерам</a></li>
                     <li><a class="lang" key="contact" href="#contacts">Контакти</a></li>
                     <li><span id="ua" class="translate">UA
@@ -178,12 +195,51 @@
                 <img id='image-second-block-1' src="./images/second-block-1.png" alt="">
                 <img class="three" src="./images/second-block-2.png" alt="">
             </span>
+            <br>
+            <div class="text-products links"><a href="/images/certificate2.jpg">Сертифікат відповідності.jpeg</a> <br> <a href="/images/certificate1.jpg">Висновок
+                    санітарно-епідеміологічної експертизи.jpeg</a></div>
         </div>
         </div>
     </section>
 
+    <div class="price" id="price">Прайс</div>
 
-
+    <section class="recall-block-2 price">
+        <div class="wrapper-recall-block-2 w1200">
+            <div class="baby">37 000 грн <div>вартість каналізації</div></div>
+            <div class="baby">43 500 грн <div>вартість каналізації <br> + установка</div></div> 
+            <div class="baby">400 грн <div>укладення труби за м<sup><small>2</small>
+            </sup> <br> із матеріалами</div></div>
+        </div>
+        <div class="wrapper--about-us w1200">
+            <div class="title lang">Ви можете скористатися послугою додаткової гарантії.</div>
+            <div class="wrapper-item--about-us">
+                <div class="item--about-us">
+                    <img src="./images/0-01.png" alt="">
+                    <div class="text-img--about-us lang" key="text_circle_1">
+                       1 рік
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-item--about-us">
+                <div class="item--about-us">
+                    <img id='image2-1' src="./images/0-02.png" alt="">
+                    <div class="text-img--about-us lang" key="text_circle_2">
+                        2 роки
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-item--about-us">
+                <div class="item--about-us">
+                    <img src="./images/0-03.png" alt="">
+                    <div class="text-img--about-us lang" key="text_circle_3">
+                        3 роки
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </section>
 
     <section class="recall-block-2 ttn">
         <div class="wrapper-recall-block-2 w1200">

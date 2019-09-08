@@ -68,10 +68,9 @@ html {
 	position: relative;
 }
 .block-images--header.sub3{
-	background: url(../images/fon-heder-3.png) no-repeat 59% 1%;
+	background: url(../images/fon-heder-2.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
-	background-position: 100%;
 }
 .top-menu {
 	display: -webkit-flex;
@@ -160,7 +159,21 @@ section.about-us {
 .wrapper--about-us {
 	margin-bottom: 70px;
 }
-
+.recall-block-2.price .wrapper--about-us.w1200{
+	margin-top: 4em;
+	margin-left: 23%;
+}
+.recall-block-2.price .wrapper--about-us.w1200 .title{
+	font-size: 22px;
+}
+.recall-block-2 .item--about-us img{
+	height: 160px;
+	width: 160px;
+}
+.recall-block-2 .item--about-us div{
+	font-size: 30px;
+	margin-top: -20px;
+}
 .title {
 	font-size: 35px;
 	font-family: S-Regular;
@@ -330,13 +343,38 @@ section.about-us {
 	width: 320px;
 	height: auto;
 }
-
+.price{
+	color: #000;
+	font-family: S-Regular;
+	font-size: 40px;	
+	padding-left: 180px;
+	padding-bottom: 30px;
+}
 .right-block input::placeholder {
 	font-size: 16px;
 	font-family: S-Regular;
 	color: #4c4c4c;
 }
-
+.recall-block-2.price{
+	background: url(../images/whitegreen.PNG) no-repeat;
+	/* display: table; */
+	width: 100%;
+	padding-bottom: 0px;
+}
+.baby
+{
+    text-align: center;
+    float: left;
+    position: relative;
+    width: 26.67%; 
+	margin-left: 5% ;
+	margin-top: -4%;
+	color: white;
+}
+.baby *{
+	margin-top: 8%;
+	font-size: 22px;
+}
 .zakaz {
 	text-transform: uppercase;
 	font-family: S-Regular;
@@ -391,7 +429,11 @@ section.about-us {
 	font-size: 19px;
 	font-family: S-Regular;
 }
-
+.text-products.links{
+	line-height: 1.5;
+	padding-left: 3.4%;
+	padding-top: 4%;
+}
 .wrapper-ul--products img {
 	display: inline;
 	width: 140px;
@@ -1367,4 +1409,7 @@ footer {
 #ru {
 	font-size: 15px;
 	font-weight: bold;
+}
+.baby  div small{
+	font-size: x-small;
 }
