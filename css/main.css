@@ -714,6 +714,11 @@ footer {
 }
 
 @media (max-width:768px) {
+	.block-images--header.sub1{
+		background: url(../images/mobile-first-fon.jpg) no-repeat 100%;
+		background-size: cover;
+
+	}
 	#mdlbtnmobile {
 		display: inline-block;
 		margin-top: 80px;
@@ -1143,7 +1148,6 @@ color: #a6b21f;
 	}
 	.block-images--header {
 		background: url(../images/mobile-first-fon.jpg) no-repeat center;
-		background-size: cover;
 	}
 	#partners {
 		position: relative;
