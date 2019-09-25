@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
 	background: #fff;
 	height: 100%;
 	width: 100%;
@@ -29,8 +28,7 @@ html {
 	display: inline;
 }
 
-.w1000,
-.w1200 {
+.w1000, .w1200 {
 	max-width: 1000px;
 	margin: 0 auto;
 }
@@ -56,22 +54,26 @@ html {
 	background-size: cover;
 	position: relative;
 }
-.block-images--header.sub1{
+
+.block-images--header.sub1 {
 	min-height: calc(100vh - 50px);
 	background: url(../images/fon1.png) no-repeat 100% 27%;
 	background-size: cover;
 	position: relative;
 }
-.block-images--header.sub2{
+
+.block-images--header.sub2 {
 	background: url(../images/fon-heder-2.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
 }
-.block-images--header.sub3{
+
+.block-images--header.sub3 {
 	background: url(../images/fon-heder-2.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
 }
+
 .top-menu {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -159,34 +161,41 @@ section.about-us {
 .wrapper--about-us {
 	margin-bottom: 70px;
 }
-.recall-block-2.price .wrapper--about-us.w1200{
+
+.recall-block-2.price .wrapper--about-us.w1200 {
 	margin-top: 4em;
 	margin-left: 23%;
 }
-.recall-block-2.price .wrapper--about-us.w1200 .title{
+
+.recall-block-2.price .wrapper--about-us.w1200 .title {
 	font-size: 22px;
 }
-.recall-block-2 .item--about-us img{
+
+.recall-block-2 .item--about-us img {
 	height: 160px;
 	width: 160px;
 }
-.recall-block-2 .item--about-us div{
+
+.recall-block-2 .item--about-us div {
 	font-size: 30px;
 	margin-top: -20px;
 }
+
 .title {
 	font-size: 35px;
 	font-family: S-Regular;
 	color: #4c4c4c;
 	margin-bottom: 60px;
 }
-.price{
+
+.price {
 	color: #4c4c4c;
 	font-family: S-Regular;
-	font-size: 40px;	
+	font-size: 40px;
 	padding-left: 16%;
 	padding-bottom: 30px;
 }
+
 .w1200 .title.news {
 	font-size: 20px;
 	color: #a6b21f;
@@ -213,8 +222,7 @@ section.about-us {
 	-o-transform: scale(1.1);
 }
 
-.right-block input,
-.text-img--about-us {
+.right-block input, .text-img--about-us {
 	font-size: 19px;
 	font-family: S-Regular;
 	color: #4c4c4c;
@@ -265,9 +273,7 @@ section.about-us {
 	list-style-image: url(../images/pick.png);
 }
 
-.info-text-block ul li,
-.title-callback,
-.title-info {
+.info-text-block ul li, .title-callback, .title-info {
 	font-family: S-Regular;
 	line-height: normal;
 }
@@ -355,26 +361,29 @@ section.about-us {
 	font-family: S-Regular;
 	color: #4c4c4c;
 }
-.recall-block-2.price{
+
+.recall-block-2.price {
 	background: url(../images/whitegreen.PNG) no-repeat;
 	/* display: table; */
 	width: 100%;
 	padding-bottom: 0px;
 }
-.baby
-{
-    text-align: center;
-    float: left;
-    position: relative;
-    width: 26.67%; 
-	margin-left: 5% ;
+
+.baby {
+	text-align: center;
+	float: left;
+	position: relative;
+	width: 26.67%;
+	margin-left: 5%;
 	margin-top: -4%;
 	color: white;
 }
-.baby *{
+
+.baby * {
 	margin-top: 8%;
 	font-size: 22px;
 }
+
 .zakaz {
 	text-transform: uppercase;
 	font-family: S-Regular;
@@ -423,17 +432,18 @@ section.about-us {
 	margin-bottom: 40px;
 }
 
-.text-products,
-.wrapper-ul--products ul li {
+.text-products, .wrapper-ul--products ul li {
 	color: #4c4c4c;
 	font-size: 19px;
 	font-family: S-Regular;
 }
-.text-products.links{
+
+.text-products.links {
 	line-height: 1.5;
 	padding-left: 3.4%;
 	padding-top: 4%;
 }
+
 .wrapper-ul--products img {
 	display: inline;
 	width: 140px;
@@ -503,8 +513,7 @@ section.about-us {
 	top: 30%;
 }
 
-.fly-item.item2,
-.fly-item.item3 {
+.fly-item.item2, .fly-item.item3 {
 	/* left: 1%; */
 	width: 370px;
 	text-align: left;
@@ -535,9 +544,11 @@ section.about-us {
 	color: #4c4c4c;
 	font-size: 18px;
 }
-.fly-item.item4 .title-fly{
-color: #000;	
+
+.fly-item.item4 .title-fly {
+	color: #000;
 }
+
 .fly-item.item5 {
 	margin-right: 10px;
 	margin-top: -19.3rem;
@@ -550,8 +561,7 @@ color: #000;
 	width: 68%;
 }
 
-.text-fly,
-.title-fly {
+.text-fly, .title-fly {
 	font-family: S-Regular;
 	line-height: normal;
 }
@@ -653,8 +663,7 @@ footer {
 	background: #a6b21f;
 }
 
-.information-s,
-.wrap-footer {
+.information-s, .wrap-footer {
 	font-size: 15px;
 	color: #fff;
 	font-family: S-Regular;
@@ -703,7 +712,8 @@ footer {
 	text-align: left;
 	margin-bottom: 40px;
 }
-.recall-block-2.price.mobile{
+
+.recall-block-2.price.mobile {
 	display: none;
 }
 
@@ -714,10 +724,9 @@ footer {
 }
 
 @media (max-width:768px) {
-	.block-images--header.sub1{
+	.block-images--header.sub1 {
 		background: url(../images/mobile-first-fon.jpg) no-repeat 100%;
 		background-size: cover;
-
 	}
 	#mdlbtnmobile {
 		display: inline-block;
@@ -737,12 +746,10 @@ footer {
 	.top-menu.fixed {
 		padding-top: 0;
 	}
-	.recall-block-2.price{
-		display: none; 
+	.recall-block-2.price {
+		display: none;
 	}
-	.toggle-button,
-	.top-block--header,
-	.top-menu ul li a {
+	.toggle-button, .top-block--header, .top-menu ul li a {
 		display: none;
 	}
 	.content-text--header {
@@ -755,9 +762,7 @@ footer {
 		background-size: 2000px;
 		background-position: 59% 27%;
 	}
-	.block-center-contacts .information-s:nth-of-type(2),
-	.block-center-contacts .information-s:nth-of-type(3),
-	.block-center-contacts .information-s:nth-of-type(4) {
+	.block-center-contacts .information-s:nth-of-type(2), .block-center-contacts .information-s:nth-of-type(3), .block-center-contacts .information-s:nth-of-type(4) {
 		background-size: 20px;
 	}
 	.content-text--header .title {
@@ -780,8 +785,7 @@ footer {
 	.wrapper-item--about-us {
 		width: 50%;
 	}
-	.div-image-block,
-	.products .title img {
+	.div-image-block, .products .title img {
 		display: none;
 	}
 	section.about-us {
@@ -791,8 +795,7 @@ footer {
 		width: 250px;
 		margin-left: -125px;
 	}
-	.item--about-us img,
-	.wrapper--about-us {
+	.item--about-us img, .wrapper--about-us {
 		margin-bottom: 15px;
 	}
 	.info-text-block {
@@ -819,14 +822,11 @@ footer {
 	.text-collback {
 		margin-bottom: 50px;
 	}
-	form button,
-	form input {
+	form button, form input {
 		box-sizing: border-box;
 		width: 100%!important;
 	}
-	.about-us .title,
-	.products .title,
-	.recall-block-2.ttn .title-callback {
+	.about-us .title, .products .title, .recall-block-2.ttn .title-callback {
 		border-bottom: 3px solid #a6b21f;
 		padding-bottom: 5px;
 		font-family: S-Bold;
@@ -882,7 +882,7 @@ footer {
 	}
 	.recall-block-2 {
 		padding: 100px 35px;
-		background: url(../images/mobile-2233.png) no-repeat  center;
+		background: url(../images/mobile-2233.png) no-repeat center;
 		background-size: cover;
 	}
 	.recall-block-2.ttn .title-callback {
@@ -891,8 +891,7 @@ footer {
 	.recall-block-2 button {
 		margin-top: 0;
 	}
-	.wrapper-gellery .title,
-	.wrapper-septic .title-callback {
+	.wrapper-gellery .title, .wrapper-septic .title-callback {
 		text-align: center;
 		/* width: 100%; */
 		font-family: S-Bold;
@@ -912,8 +911,7 @@ footer {
 		background-size: 60%!important;
 		height: 440px;
 	}
-	.wrapper-gellery .title img,
-	.wrapper-images-gellery, .dsp {
+	.wrapper-gellery .title img, .wrapper-images-gellery, .dsp {
 		display: none;
 	}
 	.mobile-gallery {
@@ -975,8 +973,7 @@ footer {
 	.recall-block-2.two-exemplar .zakaz {
 		border-width: 7px!important;
 	}
-	.call-back .zakaz,
-	.recall-block-2.ttn .zakaz {
+	.call-back .zakaz, .recall-block-2.ttn .zakaz {
 		font-weight: 700;
 	}
 	.recall-block-2.two-exemplar .text-collback {
@@ -1006,8 +1003,7 @@ footer {
 		background: 0 0;
 		color: #4c4c4c;
 	}
-	.septic.mobile .wrapper-septic .text-fly,
-	.septic.mobile .wrapper-septic .title-fly {
+	.septic.mobile .wrapper-septic .text-fly, .septic.mobile .wrapper-septic .title-fly {
 		color: #4c4c4c;
 		padding: 0;
 	}
@@ -1030,8 +1026,7 @@ footer {
 		margin: -198px 0 0;
 		padding: 30px 13px!important;
 	}
-	.mobile-menu,
-	.top-menu.fixed {
+	.mobile-menu, .top-menu.fixed {
 		width: 100%;
 		position: fixed;
 		left: 0;
@@ -1095,10 +1090,10 @@ footer {
 		background: url(../images/close-menu.png) no-repeat center;
 		background-size: contain;
 	}
-	.text-products.links{
+	.text-products.links {
 		font-size: 16px;
 	}
-	#price{
+	#price {
 		text-transform: uppercase;
 		font-size: 30px;
 		width: 22%;
@@ -1108,38 +1103,36 @@ footer {
 		margin: 0 auto 0px;
 		font-family: S-Bold;
 	}
-.recall-block-2.price.mobile{
-	width: auto;
-	background:none;
-	display: block;
-	text-align: center;
-	font-size: 26px;
-	color:#a6b21f;
-	margin-top: -120px;
-	margin-bottom: -120px;
-}
-.inprice{
-	color: #000;
-	font-size: 16px;
-	padding-top:5px;
-	padding-bottom: 40px;
-}
-
-
-div.inprice:nth-child(n+3){
-	text-align: left;
-}
-div.inprice:nth-child(n+5){
-	padding-bottom: 0px;s
-}
-div.inprice:nth-child(n+8){
-	padding-top: 20px;
-	padding-bottom: 40px;
-
-}
-div.inprice:nth-child(n+3) .clr{
-color: #a6b21f;
-}
+	.recall-block-2.price.mobile {
+		width: auto;
+		background: none;
+		display: block;
+		text-align: center;
+		font-size: 26px;
+		color: #a6b21f;
+		margin-top: -120px;
+		margin-bottom: -120px;
+	}
+	.inprice {
+		color: #000;
+		font-size: 16px;
+		padding-top: 5px;
+		padding-bottom: 40px;
+	}
+	div.inprice:nth-child(n+3) {
+		text-align: left;
+	}
+	div.inprice:nth-child(n+5) {
+		padding-bottom: 0px;
+		s
+	}
+	div.inprice:nth-child(n+8) {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	div.inprice:nth-child(n+3) .clr {
+		color: #a6b21f;
+	}
 }
 
 @media (max-width:500px) {
@@ -1186,7 +1179,6 @@ color: #a6b21f;
 	.modal.show-modal div.close-button {
 		display: none;
 	}
-	
 	#mdlbtn {
 		margin-left: 0;
 	}
@@ -1206,8 +1198,7 @@ color: #a6b21f;
 		padding-top: 30px;
 		text-align: center;
 	}
-	.blocks .text-collback,
-	.blocks .title {
+	.blocks .text-collback, .blocks .title {
 		width: 300px;
 		font-size: 16px;
 	}
@@ -1317,9 +1308,7 @@ color: #a6b21f;
 	.modal.show-modal .title-callback {
 		font-size: 19px;
 	}
-	#btn,
-	#form_phone.form_input,
-	.modal.show-modal .form_input {
+	#btn, #form_phone.form_input, .modal.show-modal .form_input {
 		display: block;
 		margin-left: 0;
 		margin-top: 20px;
@@ -1339,8 +1328,7 @@ color: #a6b21f;
 	#ScrollBack {
 		display: none;
 	}
-	#ua,
-	#ru {
+	#ua, #ru {
 		padding: 20px;
 		font-size: 40px;
 	}
@@ -1459,11 +1447,11 @@ color: #a6b21f;
 	padding-left: 100px;
 }
 
-#ua,
-#ru {
+#ua, #ru {
 	font-size: 15px;
 	font-weight: bold;
 }
-.baby  div small{
+
+.baby div small {
 	font-size: x-small;
 }
