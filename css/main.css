@@ -212,7 +212,7 @@ section.about-us {
 }
 
 .item--about-us img {
-	margin-bottom: 65px;
+	margin-bottom: 130px;
 	height: 130px;
 }
 
@@ -233,6 +233,12 @@ section.about-us {
 	padding: 0 15px;
 	text-align: center;
 	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.recall-block-2.ttn {
+	height: 32rem;
 }
 
 .border-dotted {
@@ -397,7 +403,7 @@ section.about-us {
 }
 
 .garant {
-	margin-top: 6%;
+	/* margin-top: 6%; */
 	margin-left: 16%;
 	color: white;
 	text-align: center;
@@ -427,7 +433,7 @@ section.about-us {
 }
 
 .recall-block-2 {
-	padding: 150px 35px!important;
+	padding: 150px 0px 0px 35px!important;
 }
 
 .recall-block-2.ttn {
@@ -507,6 +513,7 @@ section.about-us {
 
 .recall-block-2.two-exemplar {
 	background: url(../images/mobile-gif.jpg) no-repeat left 36%;
+	height: 34rem;
 }
 
 .text-collback span {
@@ -752,6 +759,9 @@ footer {
 }
 
 @media (max-width:768px) {
+	.recall-block-2.price.mobile .price {
+		margin-left: -90px;
+	}
 	.block-images--header.sub1 {
 		background: url(../images/mobile-first-fon.jpg) no-repeat 100%;
 		background-size: cover;
@@ -1131,6 +1141,11 @@ footer {
 		margin: 0 auto 0px;
 		font-family: S-Bold;
 	}
+	#price:not(:first-of-type) {
+		padding: 0 0 5px;
+		margin: 20% 0px 10% 14px;
+		width: 85%;
+	}
 	.recall-block-2.price.mobile {
 		width: auto;
 		background: none;
@@ -1139,7 +1154,10 @@ footer {
 		font-size: 26px;
 		color: #a6b21f;
 		margin-top: -120px;
-		margin-bottom: -120px;
+		/* margin-bottom: -120px; */
+	}
+	.recall-block-2.price.mobile div {
+		padding-right: 15px;
 	}
 	.inprice {
 		color: #000;
@@ -1151,21 +1169,27 @@ footer {
 		text-align: left;
 	}
 	div.inprice:nth-child(n+5) {
-		padding-bottom: 0px;
-		s
+		padding-bottom: 30px;
+	}
+	div.inprice:nth-child(7) {
+		margin-bottom: 50px;
 	}
 	div.inprice:nth-child(n+8) {
-		padding-top: 20px;
-		padding-bottom: 40px;
+		/* padding-top: 20px;
+		padding-bottom: 40px; */
+		padding: 10px 0;
 	}
 	div.inprice:nth-child(n+3) .clr {
 		color: #a6b21f;
+	}
+	div.inprice:nth-child(n+12) {
+		padding-bottom: 100px;
 	}
 }
 
 @media (max-width:500px) {
 	.zakaz {
-		width: 100%;
+		/* width: 100%; */
 	}
 	.block-images--header {
 		background: url(../images/mobile-first-fon.jpg) no-repeat center;
