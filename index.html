@@ -33,7 +33,7 @@
             enable_page_level_ads: true
         });
     </script>
-
+    <script src="https://kit.fontawesome.com/13e9d841d8.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -397,25 +397,38 @@
 
 
     <section class="gellery">
-        <div class="wrapper-gellery w1200">
-            <div class="title"> <span class="biosept" style="display: none;"></span></div> <!-- Галерея Biosept -->
+        <div class="wrapper-gellery">
+            <!-- <div class="title"> <span class="biosept" style="display: none;"></span></div> Галерея Biosept -->
             <div class="dsp">
+
                 <div class="wrapper-images-gellery">
-                    <img src="images/4.jpg" alt="">
-                    <img src="images/3.jpg" alt="">
-                    <img src="images/2.png" alt="">
                     <img src="images/1.png" alt="">
-                    <!-- <img src="images/5.jpg" alt=""> -->
-                    <!-- <img src="images/3.png" alt=""> -->
+                    <img src="images/2.png" alt="">
+                    <img src="images/6.jpg" alt="">
+                    <img src="images/7.jpg" alt="">
+                    <img src="images/1.jpg" alt="">
+                    <video class="galery-video" controls>
+                        <source src="/images/3.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/4.jpg" alt="">
+                    <video class="galery-video" controls>
+                        <source src="/images/5.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
             <div class="mobile-gallery" style="display: none;">
-                <img src="images/4.jpg" alt="">
-                <img src="images/3.jpg" alt="">
-                <img src="images/2.png" alt="">
                 <img src="images/1.png" alt="">
-                <!-- <img src="images/5.jpg" alt=""> -->
-                <!-- <img src="images/3.png" alt=""> -->
+                <img src="images/2.png" alt="">
+                <img src="images/6.jpg" alt="">
+                <img src="images/7.jpg" alt="">
+                <img src="images/1.jpg" alt="">
+                <video class="galery-video" controls>
+                    <source src="/images/3.mp4" type="video/mp4">
+                </video>
+                <img src="images/4.jpg" alt="">
+                <video class="galery-video" controls>
+                    <source src="/images/5.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </section>
@@ -507,7 +520,7 @@
                 <div class="information-s">
                     +38 (063) 433 27 37 <br>
                     +38 (096) 399 02 77<br>
-                    +38 (098) 062 85 47<br>
+                    +38 (063) 590 32 42<br>
                     +38 (095) 325 77 45<br>
                 </div>
                 <div class="information-s">
@@ -584,7 +597,7 @@
         });
         $('.wrapper-images-gellery').slick({
 
-            //   dots: true,
+            dots: true,
             infinite: true,
             speed: 1000,
             // slidesToShow: 1,
@@ -594,7 +607,10 @@
             adaptiveHeight: true,
             autoplay: true,
             autoplaySpeed: 5000,
-            arrows: false,
+            arrows: true,
+            prevArrow: "",
+            // prevArrow:"<span  class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></span>",
+            nextArrow: "<span class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></span>"
         });
     });
 </script>
